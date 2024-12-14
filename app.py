@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
 
 
-st.set_page_config(page_title="23.22.2521", layout="wide")
+st.set_page_config(page_title="Muhammad Asyrov Illahi", layout="wide")
 
 musics = pd.read_csv('new_df.csv')
 
