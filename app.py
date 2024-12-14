@@ -39,7 +39,7 @@ def recommend(music):
     return percentage_musics, recommended_musics, recommended_musics_tracks
 
 
-st.title('Sistem Rekomendasi Musik')
+st.title('Musik Sistem Rekomendasi')
 selected_music_name = st.selectbox(
     'Masukkan lagu yang anda inginkan',
     musics['artist_n_song'].values)
