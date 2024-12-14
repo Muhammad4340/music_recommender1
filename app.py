@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
 
 
-st.set_page_config(page_title="Muhammad Asyrov Illahi", layout="wide")
+st.set_page_config(page_title="Sistem Rekomendasi Musik", layout="wide")
 
 musics = pd.read_csv('new_df.csv')
 
@@ -39,7 +39,7 @@ def recommend(music):
     return percentage_musics, recommended_musics, recommended_musics_tracks
 
 
-st.title('Sistem Rekomendasi Musik')
+st.title('Muhammad Asyrov Illahi')
 selected_music_name = st.selectbox(
     'Masukkan lagu yang anda inginkan',
     musics['artist_n_song'].values)
